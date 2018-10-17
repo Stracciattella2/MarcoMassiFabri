@@ -45,6 +45,13 @@ public class Partita {
 		this.data = data;
 	}
 	
+
+	@Override
+	public String toString() {
+		return "Partita [id=" + id + ", casa=" + casa + ", ospite=" + ospite + ", citta=" + citta + ", data=" + data
+				+ "]";
+	}
+	
 	
 	
 }
