@@ -9,7 +9,7 @@ import java.sql.Statement;
 public class DataSource {
 
 	
-	private static final String URL = "jdbc:oracle:thin:@172.22.186.122:1521:xe";
+	private static final String URL = "jdbc:oracle:thin:@localhost:1521:xe";
 	private static final String USER = "F";
 	private static final String PASSWORD = "password";
 	private static DataSource instance;
