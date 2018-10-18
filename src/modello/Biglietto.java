@@ -35,6 +35,13 @@ public class Biglietto {
 		this.prezzo = prezzo;
 	}
 	
+	//toString
+	@Override
+	public String toString() {
+		return "Biglietto [id=" + id + ", idPartita=" + idPartita + ", idUtente=" + idUtente + ", prezzo=" + prezzo
+				+ "]";
+	}
+	
 	
 	
 }
