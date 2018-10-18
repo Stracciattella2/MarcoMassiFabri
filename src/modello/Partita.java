@@ -35,6 +35,7 @@ public class Partita {
 	public void setCasa(String casa) {
 		this.casa = casa;
 	}
+
 	public void setOspite(String ospite) {
 		this.ospite = ospite;
 	}
